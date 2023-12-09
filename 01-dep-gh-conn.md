@@ -66,7 +66,7 @@ To make things easier, we will use GitHub's web editor to manage the repo. You m
     - App Registration: Register an App in my GitHub Personal Account
 
    <p align="left">
-      <img width="680" height="712" img src="pics/gh_connector.png"/>
+      <img width="680" img src="pics/gh_connector.png"/>
       </p> 
 
 1. Click on **Register App**.
@@ -74,19 +74,19 @@ To make things easier, we will use GitHub's web editor to manage the repo. You m
 1. In the Create GitHub App page, click on **Create GitHub App for <your username>
 
    <p align="left">
-      <img width="680" height="712" img src="pics/create_gh_app.png"/>
+      <img width="500" img src="pics/create_gh_app.png"/>
       </p> 
 
 1. Back to the Connect to GitHub page, you should see the `App Registered` status. Click on **Install App**.
 
    <p align="left">
-      <img width="680" height="712" img src="pics/app_registered.png"/>
+      <img width="500" img src="pics/app_registered.png"/>
       </p> 
 
 1. In the install app page, you can enable the app to scan all repos or select just specific ones.
 
    <p align="left">
-      <img width="680" height="712" img src="pics/install_gh_app2.png"/>
+      <img width="365" img src="pics/install_gh_app2.png"/>
       </p> 
 
 1. Click on **Install**.
@@ -94,7 +94,7 @@ To make things easier, we will use GitHub's web editor to manage the repo. You m
 1. The app is now installed, and you are redirected to the deployment page. Click on **Continue**.
 
    <p align="left">
-      <img width="680" height="712" img src="pics/app_installed.png"/>
+      <img width="500" img src="pics/app_installed.png"/>
       </p> 
 
 1. Give a name to your connector:
@@ -110,7 +110,7 @@ To make things easier, we will use GitHub's web editor to manage the repo. You m
 1. Your connector's status will be *Initializing*. Wait until it changes to *Active*.
 
    <p align="left">
-      <img width="680" height="712" img src="pics/deployments.png"/>
+      <img width="750" img src="pics/deployments.png"/>
       </p> 
 
 Your connector is now deployed, proceed to the **Next** page.
