@@ -14,7 +14,7 @@ In this task, you will deploy the Wiz GitHub connector, test the repository scan
 1. Give your repository a name. Leave the repository as Public, and click on **Create repository**.
 
    <p align="left">
-      <img width="680" height="712" img src="pics/new_repo.png"/>
+      <img width="500" height="483" img src="pics/new_repo.png"/>
       </p> 
 
 1. On your repo's main page, click on the **README** link to create a readme file for your repo. 
@@ -36,7 +36,7 @@ In this task, you will deploy the Wiz GitHub connector, test the repository scan
     - **Require status checks to pass before merging**
 
    <p align="left">
-      <img width="680" height="712" img src="pics/branch_protection.png"/>
+      <img width="500" img src="pics/branch_protection.png"/>
       </p> 
 
 1. Scroll down and click on **Create**.
