@@ -85,7 +85,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
       <img width="750" img src="pics/repo_scans.png"/>
       </p> 
 
-1. Open the details of your scan, lets look into some of the details.
+1. Open the details of your scan, lets look into some of the information provided.
 
     - **Event Properties** shows basic details of the scan, including the overall severity and trigger type (Pull Request or Scheduled)
     - **CI/CD Scan** shows the scan result and the number of findings per severity.
@@ -97,7 +97,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
 
 1. Now lets look at the details of the **Pull Request Properties** section:
 
-    - This section shows who committed the code (**Author**), the branch name (**Head Commit Ref**), the base and committed hashes, number of commits in the PR, number of files added, and the PR url.
+    - This section shows who committed the code (**Author**), the branch name (**Title**), the base and committed hashes (**Base Commit Ref** and **Head Commit Ref**), number of commits in the PR, number of files added, and the PR url.
 
         <p align="left">
           <img width="750" img src="pics/cicd_scan2.png"/>
@@ -106,9 +106,11 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
 
 1. The **Contains Configuration Findings** and **Secret Instances** sections show the IaC misconfiguration and secret findings respectively. 
 
-    <p align="left">
-      <img width="750" img src="pics/cicd_scan3.png"/>
-      </p> 
+    - We will address the problems in the next step, but you can see Wiz found 4 configuration findings, with one being of High severity.
+
+       <p align="left">
+         <img width="750" img src="pics/cicd_scan3.png"/>
+         </p> 
 
 
 ## Address code commit issues
