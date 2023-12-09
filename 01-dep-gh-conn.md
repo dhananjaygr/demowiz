@@ -56,7 +56,7 @@ To make things easier, we will use GitHub's web editor to manage the repo. You m
 1. Under the Version Control section, click on **GitHub**.
 
    <p align="left">
-      <img width="680" height="712" img src="pics/deployment_gh.png"/>
+      <img width="300" img src="pics/deployment_gh.png"/>
       </p> 
 
 1. On the Connect to GitHub page, Select:
