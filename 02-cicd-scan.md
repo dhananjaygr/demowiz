@@ -10,7 +10,7 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
 1. In your newly create GitHub repository, click on **Add file > Create new file**
 
    <p align="left">
-      <img width="650" img src="pics/create_file.png"/>
+      <img width="650" height="322" img src="pics/create_file.png"/>
       </p> 
 
 1. Copy the contents from the block below and paste in the new file. Name it `Dockerfile`
@@ -32,7 +32,7 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
 1. In the *Proposed changes* pop-up select **Create a new branch..** and give it the name `task1`. 
 
    <p align="left">
-      <img width="350" img src="pics/propose_changes.png"/>
+      <img width="350" height="390" img src="pics/propose_changes.png"/>
       </p> 
 
 1. Click on **Propose changes**
@@ -40,7 +40,7 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
 1. Add a new file to the same branch by selecting **< > Code**, then changing the branch to `task1`.
 
    <p align="left">
-      <img width="350" img src="pics/switch_branch.png"/>
+      <img width="350" height="353" img src="pics/switch_branch.png"/>
       </p> 
 
 1. Once in the `task1` branch, click on **Add file > Create new file**.
@@ -64,13 +64,13 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
 1. On the *Open a pull request* page, click on **Create pull request**.
 
    <p align="left">
-      <img width="500" img src="pics/create_pr.png"/>
+      <img width="500" height="376" img src="pics/create_pr.png"/>
       </p> 
 
 1. In the Pull request commit conversation page, you will see the Wiz checks in action, and as result you should see the `Wiz IaC Scanner` and `Wiz Secret Scanner` failed.
 
    <p align="left">
-      <img width="650" img src="pics/check_fail.png"/>
+      <img width="650" height="274" img src="pics/check_fail.png"/>
       </p> 
 
 Before addressing the issues found by the scans, lets look into what Wiz collects and shows in the portal.
@@ -82,7 +82,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
 1. Find your triggered scan. On the `Repository` column, look for your <github_user>/<repo_name>. Or you can use the *Repository* filter.
 
     <p align="left">
-      <img width="680" img src="pics/repo_scans.png"/>
+      <img width="680" height="176" img src="pics/repo_scans.png"/>
       </p> 
 
 1. Open the details of your scan, lets look into some of the information provided.
@@ -92,7 +92,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
     - **Properties** shows the scan duration and time, and most importantly, what scan policies are enabled at the connector level.
 
         <p align="left">
-          <img width="750" img src="pics/cicd_scan1.png"/>
+          <img width="750" height="573" img src="pics/cicd_scan1.png"/>
           </p> 
 
 1. Now lets look at the details of the **Pull Request Properties** section:
@@ -100,7 +100,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
     - This section shows who committed the code (**Author**), the branch name (**Title**), the base and committed hashes (**Base Commit Ref** and **Head Commit Ref**), number of commits in the PR, number of files added, and the PR url.
 
         <p align="left">
-          <img width="750" img src="pics/cicd_scan2.png"/>
+          <img width="750" height="161" img src="pics/cicd_scan2.png"/>
           </p> 
 
 
@@ -109,7 +109,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
     - We will address the problems in the next step, but you can see Wiz found 4 configuration findings, with one being of High severity.
 
        <p align="left">
-         <img width="750" img src="pics/cicd_scan3.png"/>
+         <img width="750" height="323" img src="pics/cicd_scan3.png"/>
          </p> 
 
 
@@ -118,7 +118,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
 1. Back at your Github's PR page, within the check step, find the `Wiz IaC Scanner` line and click on **Details**.
 
    <p align="left">
-      <img width="650" img src="pics/check_fail.png"/>
+      <img width="650" height="274" img src="pics/check_fail.png"/>
       </p> 
 
 1. Here you will see the High severity finding within the `Dockerfile` file. 
@@ -126,19 +126,19 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
     `The 'Dockerfile' should contain the 'USER' instruction`
 
     <p align="left">
-      <img width="650" img src="pics/iac_scan_detail.png"/>
+      <img width="650" height="328" img src="pics/iac_scan_detail.png"/>
       </p> 
 
 1. Find the link to `Wiz Secret Scanner` and click on it.
 
     <p align="left">
-      <img width="650" img src="pics/wiz_secret.png"/>
+      <img width="350" height="167" img src="pics/wiz_secret.png"/>
       </p> 
 
 1. Here you will see the Secret finding, where we committed an AWS Access/Secret Key pair within our code.
 
     <p align="left">
-      <img width="650" img src="pics/secret_scan_detail.png"/>
+      <img width="650" height="306" img src="pics/secret_scan_detail.png"/>
       </p> 
 
     In a production scenario, you would not want to add Access/Secret Keys inside your code. This is extremely dangerous, and can lead to compromise and priviledge escalation. There are alternatives like using an AWS role attached to the instances running the containers/application. 
@@ -150,7 +150,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
 1. Change your branch to `task1`.
 
     <p align="left">
-      <img width="650" img src="pics/switch_branch.png"/>
+      <img width="400" height="405" img src="pics/switch_branch.png"/>
       </p> 
 
 1. Open the `Dockerfile` file.
@@ -181,13 +181,13 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
 1. In the conversation tab, scroll down to the test step. You should see that now the `Wiz IaC Scanner` is in *Neutral* state.
 
     <p align="left">
-      <img width="650" img src="pics/check_neutral.png"/>
+      <img width="650" height="271" img src="pics/check_neutral.png"/>
       </p> 
 
 1. Click on details, you will see that there are still some checks with severity 'None' (informational). Those are non-blocking and we are OK to continue.
 
     <p align="left">
-      <img width="650" img src="pics/neutral_detail.png"/>
+      <img width="650" height="349" img src="pics/neutral_detail.png"/>
       </p> 
 
 1. Select `Wiz Secret Scanner`, you will still see the check failed, but as discussed earlier, we will ignore the error in this exercise.
@@ -197,7 +197,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
 1. Click on **Merge without waiting for requirements to be met (bypass branch protections)**, then click on **Merge pull request**.
 
     <p align="left">
-      <img width="650" img src="pics/merge_pr.png"/>
+      <img width="650" height="272" img src="pics/merge_pr.png"/>
       </p> 
 
 1. Click on **Confirm merge**.
@@ -205,7 +205,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
 1. Congratulations, your Pull Request is merged! The code is now in the `main` branch, which in our case means "production". 
 
     <p align="left">
-      <img width="650" img src="pics/pr_merged.png"/>
+      <img width="650" height="72" img src="pics/pr_merged.png"/>
       </p> 
 
 1. Click on **Delete branch** to delete your merged `task1` branch.
@@ -215,7 +215,7 @@ Before addressing the issues found by the scans, lets look into what Wiz collect
 1. Open your latest scan, scroll down to the **Contains Configuration Findings** section. Here you will see only the two informational findings which matches the GitHub scan you've seen earlier.
 
     <p align="left">
-      <img width="650" img src="pics/cc_findings.png"/>
+      <img width="650" height="123" img src="pics/cc_findings.png"/>
       </p> 
 
 </div>
