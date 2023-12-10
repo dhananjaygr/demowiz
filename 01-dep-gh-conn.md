@@ -36,7 +36,7 @@ In this task, you will deploy the Wiz GitHub connector, test the repository scan
     - **Require status checks to pass before merging**
 
    <p align="left">
-      <img width="500" img src="pics/branch_protection.png"/>
+      <img width="500" height="467" img src="pics/branch_protection.png"/>
       </p> 
 
 1. Scroll down and click on **Create**.
