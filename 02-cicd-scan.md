@@ -48,7 +48,7 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
 1. Copy the contents from the block below and paste in the new file. Name it `awssecret.json`
 
       <div style="margin-right: 150px;">
-
+    
         [default]
         aws_access_key_id = AKIA6KJQR5EGTCVYCLKE
         aws_secret_access_key = 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
