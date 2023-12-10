@@ -3,7 +3,7 @@
       "Name": "Wiz GitHub Connector Deployment",
       "Language": "English",
       "Files": [
-          {
+        {
           "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/wiz-training/data-security-in-wiz/main/100-Foundation/labaccess.md",
           "Order": 1
         },
