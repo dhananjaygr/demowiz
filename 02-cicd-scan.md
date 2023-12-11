@@ -18,13 +18,15 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
     <div style="margin-right: 150px;">
 
     ```
-    FROM ubuntu:16.04
+
+    FROM ubuntu:16.0400
     RUN mkdir -p /home/lab/.aws/
     COPY awssecret.json /home/lab/.aws/credentials
     RUN apt-get update && \
         apt-get install -y apache2=2.4.18-2ubuntu3.17
     EXPOSE 80
     CMD ["apache2ctl", "-D", "FOREGROUND"]
+    
     ```
 
     </div>
@@ -52,9 +54,11 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
     <div style="margin-right: 150px;">
         
     ```
+
     [default]
     aws_access_key_id = AKIA6KJQR5EGTCVYCLKE
     aws_secret_access_key = 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
+    
     ```
       
     </div>
