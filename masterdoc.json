@@ -8,11 +8,11 @@
           "Order": 1
         },
         {
-          "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/wiz-training/devsecops/main/01-dep-gh-conn.md",
+          "RawFilePath": "https://docs-api.cloudlabs.ai/repos/https:/raw.githubusercontent.com/dhananjaygr/demowiz/main/01-dep-gh-conn.md",
           "Order": 2
         },
         {
-          "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/wiz-training/devsecops/main/02-cicd-scan.md",
+          "RawFilePath": "https://docs-api.cloudlabs.ai/repos/https:/raw.githubusercontent.com/dhananjaygr/demowiz/main/02-cicd-scan.md",
           "Order": 3
         }
       ]
