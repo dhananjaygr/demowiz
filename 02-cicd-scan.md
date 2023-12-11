@@ -25,7 +25,7 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
         apt-get install -y apache2=2.4.18-2ubuntu3.17
     EXPOSE 80
     CMD ["apache2ctl", "-D", "FOREGROUND"]
-    ```
+    ``` 
 
     </div>
 
