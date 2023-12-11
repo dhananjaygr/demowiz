@@ -15,17 +15,19 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
 
 1. Copy the contents from the block below and paste in the new file. Name it `Dockerfile`
 
-      <div style="margin-right: 150px;">
+    <div style="margin-right: 150px;">
 
-        FROM ubuntu:16.04
-        RUN mkdir -p /home/lab/.aws/
-        COPY awssecret.json /home/lab/.aws/credentials
-        RUN apt-get update && \
-            apt-get install -y apache2=2.4.18-2ubuntu3.17
-        EXPOSE 80
-        CMD ["apache2ctl", "-D", "FOREGROUND"]
-    
-      </div>
+    ```
+    FROM ubuntu:16.04
+    RUN mkdir -p /home/lab/.aws/
+    COPY awssecret.json /home/lab/.aws/credentials
+    RUN apt-get update && \
+        apt-get install -y apache2=2.4.18-2ubuntu3.17
+    EXPOSE 80
+    CMD ["apache2ctl", "-D", "FOREGROUND"]
+    ```
+
+    </div>
 
 1. Click on **Commit changes...**
 
@@ -47,13 +49,15 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
 
 1. Copy the contents from the block below and paste in the new file. Name it `awssecret.json`
 
-      <div style="margin-right: 150px;">
-    
-        [default]
-        aws_access_key_id = AKIA6KJQR5EGTCVYCLKE
-        aws_secret_access_key = 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
-    
-      </div>
+    <div style="margin-right: 150px;">
+        
+    ```
+    [default]
+    aws_access_key_id = AKIA6KJQR5EGTCVYCLKE
+    aws_secret_access_key = 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
+    ```
+      
+    </div>
 
 1. Click on **Commit changes...**.
 
