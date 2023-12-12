@@ -9,7 +9,7 @@ In this task, we will simulate part of a CI/CD pipeline where developers commit 
 
 1. In your newly create GitHub repository, click on **Add file > Create new file**
 
-   <p align="left">
+   <p align="left"> 
       <img width="650" height="322" img src="pics/create_file.png"/>
       </p> 
 
