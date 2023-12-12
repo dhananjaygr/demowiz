@@ -99,11 +99,13 @@ To make things easier, we will use GitHub's web editor to manage the repo. You m
 
 1. Give a name to your connector:
 
-      <div style="margin-right: 150px;">
+   <div style="margin-right: 150px;">
    
-         <inject key="odlUser" enableCopy="false"></inject>-gh-connector
+   ```  
+   <inject key="odlUser" enableCopy="false"></inject>-gh-connector
+   ``` 
    
-      </div>
+   </div>
 
 1. Leave all of the default settings unchanged, and click on **Finish**.
 
