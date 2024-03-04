@@ -3,7 +3,7 @@
 # Task: GitHub Connector Deployment
 ---
 
-https://raw.githubusercontent.com/dhananjaygr/demowiz/demo/02-cicd-scan.md
+https://github.com/dhananjaygr/demowiz/blob/demo/02-cicd-scan.md
 
 In this task, you will deploy the Wiz GitHub connector, test the repository scanning capabilities, and see results of scans in the Wiz portal.
 
