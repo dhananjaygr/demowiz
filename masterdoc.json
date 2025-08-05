@@ -4,16 +4,20 @@
       "Language": "English",
       "Files": [
         {
-          "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/wiz-training/data-security-in-wiz/main/100-Foundation/labaccess.md",
+          "RawFilePath": "https://raw.githubusercontent.com/dhananjaygr/demowiz/refs/heads/main/00-Getting%20started%20page",
           "Order": 1
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/dhananjaygr/demowiz/main/01-dep-gh-conn.md",
+          "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/wiz-training/data-security-in-wiz/main/100-Foundation/labaccess.md",
           "Order": 2
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/dhananjaygr/demowiz/main/02-cicd-scan.md",
+          "RawFilePath": "https://raw.githubusercontent.com/dhananjaygr/demowiz/main/01-dep-gh-conn.md",
           "Order": 3
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/dhananjaygr/demowiz/main/02-cicd-scan.md",
+          "Order": 4
         }
       ]
     }
